@@ -1,0 +1,57 @@
+@import '../../styles/variables.scss';
+
+.root {
+  height: 100vh;
+  border-bottom: 1px solid $colorLines;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  padding: 0 20px 0 50px;
+
+  @media screen and (max-width: $screenSm) {
+    padding: 0 20px;
+  }
+}
+
+.name {
+  font-size: 100px;
+  text-transform: uppercase;
+  font-weight: $fontBold;
+  font-family: $fancyFont;
+}
+
+.surname {
+  color: $colorPrimary;
+}
+
+.email {
+  font-weight: $fontBold;
+  font-size: 25px;
+  font-family: $fancyFont;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $colorPrimary;
+}
+
+.message {
+  margin-top: 50px;
+  font-size: 17px;
+  color: $colorText;
+  line-height: 1.5;
+}
+
+.social {
+  margin-top: 50px;
+
+  @media screen and (max-width: $screenSm) {
+    text-align: center;
+  }
+}
+
+.socilIcon {
+  margin-right: 20px;
+  color: $colorTextDark;
+  font-size: 50px;
+}

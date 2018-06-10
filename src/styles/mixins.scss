@@ -1,0 +1,8 @@
+@import './variables';
+
+@mixin calendarCellTint($borderColor, $color, $backgroundColor) {
+  border-top: 1px solid $borderColor;
+  border-bottom: 1px solid $borderColor;
+  color: $color;
+  background-color: $backgroundColor;
+}

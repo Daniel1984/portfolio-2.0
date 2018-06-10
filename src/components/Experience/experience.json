@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Senior / Principle Software Engineer",
+    "company": "Hostmaker (London, UK)",
+    "date": "2017 Jan - present",
+    "message": "Responsible for architecture / development of various projects starting from public facing website, mobile app, internal tools, api and more."
+  },
+  {
+    "title": "Senior Front End Developer",
+    "company": "SameSystem A/S (Denmark)",
+    "date": "2014 Feb - 2017 Jan",
+    "message": "Mobile app development for platform that enables companies to plan, adapt and optimize the workforce more efficiently."
+  },
+  {
+    "title": "Senior Front End Developer",
+    "company": "Wrap Media (San Francisco, USA)",
+    "date": "2015 Feb - 2016 Nov",
+    "message": "Building powerful mobile engagement tool for deepening relationships, improving loyalty and driving commerce."
+  },
+  {
+    "title": "Front End Developer",
+    "company": "Necolt (Vilnius, LT)",
+    "date": "2013 April - 2014 February",
+    "message": "Building rich user interfaces with curring edge technologies."
+  },
+  {
+    "title": "Full Stack Software Developer",
+    "company": "Little Star Media Ltd. (Milton Keynes, UK)",
+    "date": "2010 August - 2013 April",
+    "message": "Platform and games development for result-driven affiliate marketing company."
+  }
+]

@@ -1,0 +1,30 @@
+@import './variables.scss';
+
+html,
+body {
+  height: 100%;
+  user-select: none;
+}
+
+:global {
+  * {
+    box-sizing: border-box;
+  }
+
+  #daniel-root {
+    height: 100%;
+  }
+
+  #loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+body {
+  font-family: $fontFamily;
+  font-weight: $fontNormal;
+  color: $colorTextDark;
+}

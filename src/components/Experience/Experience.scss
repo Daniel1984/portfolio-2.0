@@ -1,0 +1,49 @@
+@import '../../styles/variables.scss';
+
+.root {
+  padding: 50px 20px 0 50px;
+  border-bottom: 1px solid $colorLines;
+
+  @media screen and (max-width: $screenSm) {
+    padding: 50px 20px 0 20px;
+  }
+}
+
+.experienceRow {
+  margin-bottom: 60px;
+}
+
+.title {
+  margin-bottom: 50px;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: $fontExtraBold;
+  font-family: $fancyFont;
+}
+
+.jobTitle {
+  font-family: $fancyFont;
+  font-weight: $fontExtraBold;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.company {
+  margin: 10px 0;
+  color: $colorText;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: $fontSemiBold;
+  font-family: $fancyFont;
+}
+
+.date {
+  margin-bottom: 20px;
+  color: $colorPrimary;
+}
+
+.description {
+  color: $colorText;
+  font-size: 18px;
+  line-height: 1.4;
+}
