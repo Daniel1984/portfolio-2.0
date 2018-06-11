@@ -14,7 +14,7 @@
     width: 150px;
     height: 150px;
     border-radius: 75px;
-    margin: 20px auto 0 auto;
+    margin: 20px auto 20px auto;
   }
 }
 
@@ -26,6 +26,10 @@
   @media screen and (max-width: $screenSm) {
     flex-direction: row;
     justify-content: space-around;
+  }
+
+  @media screen and (max-width: $screenXs) {
+    display: none;
   }
 }
 

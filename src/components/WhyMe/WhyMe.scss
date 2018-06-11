@@ -12,6 +12,10 @@
   @media screen and (max-width: $screenSm) {
     padding: 0 20px;
   }
+
+  @media screen and (max-width: $screenXs) {
+    display: none;
+  }
 }
 
 .title {
