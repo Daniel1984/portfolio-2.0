@@ -3,7 +3,6 @@ import { AppProvider } from '../../containers/AppContainer';
 import Dashboard from '../Dashboard/Dashboard';
 import About from '../About/About';
 import Experience from '../Experience/Experience';
-import WhyMe from '../WhyMe/WhyMe';
 import styles from './App.scss';
 
 export default function App() {
@@ -16,7 +15,6 @@ export default function App() {
         <div className={styles.content}>
           <About />
           <Experience />
-          <WhyMe />
         </div>
       </div>
     </AppProvider>

@@ -13,7 +13,6 @@ Dashboard.propTypes = {
 const MENU_ITEMS = [
   'About',
   'Experience',
-  'Why me?',
 ];
 
 function Dashboard({ activeSlide, setActiveSlide, scrollSlideIntoView }) {
