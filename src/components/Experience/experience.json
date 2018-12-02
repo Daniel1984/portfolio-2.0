@@ -3,30 +3,30 @@
     "title": "Senior / Principal Software Engineer (Remote consultant)",
     "company": "Hostmaker (London, UK)",
     "date": "2017 Jan - present",
-    "message": "Responsible for architecture / development of various projects starting from public facing website, mobile app, internal tools, api and more."
+    "message": "Responsible for architecture / development of various projects starting from public facing website, mobile app, internal tools, api and more. Involved in hiring process and code reviews."
   },
   {
     "title": "Senior Front End Developer (Remote consultant)",
     "company": "Wrap Media (San Francisco, USA)",
     "date": "2015 Feb - 2016 Nov",
-    "message": "Building powerful mobile engagement tool for deepening relationships, improving loyalty and driving commerce."
+    "message": "Building powerful mobile engagement tool for deepening relationships, improving loyalty and driving commerce. Tools used: angular, gulp, webpack, node, sinon, jasmine and more."
   },
   {
     "title": "Long Term Consultant / Senior Front End Developer (Remote consultant)",
     "company": "SameSystem A/S (Denmark)",
     "date": "2014 Feb - 2017 Jan",
-    "message": "Mobile app development for platform that enables companies to plan, adapt and optimize the workforce more efficiently."
+    "message": "Developed the mobile app from scratch for retail efficiency management system. Using cordova/React native."
   },
   {
     "title": "Front End Developer",
     "company": "Necolt (Vilnius, LT)",
     "date": "2013 April - 2014 February",
-    "message": "Building rich user interfaces with cutting edge technologies."
+    "message": "Worked on various projects with different technologies such as: RoR, node.js, backbone.js and more."
   },
   {
     "title": "Full Stack Software Developer",
     "company": "Little Star Media Ltd. (Milton Keynes, UK)",
     "date": "2010 August - 2013 April",
-    "message": "Platform and games development for result-driven affiliate marketing company."
+    "message": "Worked with large scale SOA architecture with RoR, Node.js and Backbone.js. Developing responsive web app and games."
   }
 ]
