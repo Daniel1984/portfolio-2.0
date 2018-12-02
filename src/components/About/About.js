@@ -30,8 +30,10 @@ class About extends Component {
           </a>
 
           <div className={styles.message}>
-            For almost a decade I am focusing on building performant web
-            applications that require little to no maintenance after delivery.
+            Software engineer specializing in building apps for the WWW, applying
+            established and community recognized technologies and best practices.
+            Have a solid understanding of both server and client sides of web
+            development. Big GO and functional programming enthusiast.
           </div>
 
           <div className={styles.social}>
