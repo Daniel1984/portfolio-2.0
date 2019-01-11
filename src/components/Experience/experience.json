@@ -1,15 +1,21 @@
 [
   {
+    "title": "Senior Engineer (Remote consultant)",
+    "company": "Rokkex (Vilnius, LT)",
+    "date": "2018 Aug - present",
+    "message": "Core contributor of high performance, concurrent matching engine written in GO using TDD process (unit, integration and benchmark tests) as well as development of client facing app with React and Webpack. Using AWS EC2 with Kubernetes and Rancher for scaling, managing and monitoring clusters."
+  },
+  {
     "title": "Senior / Principal Software Engineer (Remote consultant)",
     "company": "Hostmaker (London, UK)",
     "date": "2017 Jan - present",
-    "message": "Responsible for architecture / development of various projects starting from public facing website, mobile app, internal tools, api and more. Involved in hiring process and code reviews."
+    "message": "Working on various projects starting from utility Slack bots with AWS Lambda integration (Golang), API (using Node.js with Sequelize), multiple client facing apps (React, Ember, vanilla JS) and mobile app (React Native). Focusing on delivering clean and maintainable code with high test coverage. Involved in hiring process, code reviews and mentoring junior developers."
   },
   {
     "title": "Senior Front End Developer (Remote consultant)",
     "company": "Wrap Media (San Francisco, USA)",
     "date": "2015 Feb - 2016 Nov",
-    "message": "Building powerful mobile engagement tool for deepening relationships, improving loyalty and driving commerce. Tools used: angular, gulp, webpack, node, sinon, jasmine and more."
+    "message": "Building powerful mobile engagement tool for deepening relationships, improving loyalty and driving commerce. Daily tasks involved development of API and client side apps using RoR and Angularjs"
   },
   {
     "title": "Long Term Consultant / Senior Front End Developer (Remote consultant)",
