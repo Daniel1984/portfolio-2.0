@@ -30,10 +30,9 @@ class About extends Component {
           </a>
 
           <div className={styles.message}>
-            Software engineer specializing in building apps for the WWW, applying
-            established and community recognized technologies and best practices.
-            Have a solid understanding of both server and client sides of web
-            development. Big GO and functional programming enthusiast.
+            Software engineer specializing in building solid, maintenance free software by applying established
+            and community recognized technologies and best practices. Have a solid understanding of
+            both server and client sides development. GO and functional programming enthusiast.
           </div>
 
           <div className={styles.social}>

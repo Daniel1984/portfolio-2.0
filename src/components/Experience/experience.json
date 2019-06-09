@@ -1,9 +1,15 @@
 [
   {
-    "title": "Senior Engineer (Remote consultant)",
+    "title": "Golang developer (Remote consultant)",
+    "company": "Xiatech (London, UK)",
+    "date": "2019 March - present",
+    "message": "Data analysis of business information. Creating data ingest pipelines, data processing, analysis and persistence in data lakes. Technologies used: Golang, AWS Lambda, AWS DynamoDB, AWS DMS, TDD, Docker, Terraform, SQL"
+  },
+  {
+    "title": "Principal Software Engineer (Remote consultant)",
     "company": "Rokkex (Vilnius, LT)",
     "date": "2018 Aug - present",
-    "message": "Core contributor of high performance, concurrent matching engine written in GO using TDD process (unit, integration and benchmark tests) as well as development of client facing app with React and Webpack. Using AWS EC2 with Kubernetes and Rancher for scaling, managing and monitoring clusters."
+    "message": "Core contributor to high performance matching engine written in GO using TDD process (unit, integration and benchmark tests) as well as development of microservices with Node.js and client facing app with React.js. Technologies used: Golang, Grpc, Kafka, Docker, Node.js, React.js, Jest"
   },
   {
     "title": "Senior / Principal Software Engineer (Remote consultant)",
