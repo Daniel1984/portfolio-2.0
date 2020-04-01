@@ -2,7 +2,6 @@
 
 .root {
   height: 100vh;
-  border-bottom: 1px solid $colorLines;
   display: flex;
   align-items: center;
 }
@@ -16,34 +15,39 @@
 }
 
 .name {
-  font-size: 100px;
+  font-size: 50px;
   text-transform: uppercase;
-  font-weight: $fontBold;
-  font-family: $fancyFont;
 }
 
 .surname {
-  color: $colorPrimary;
+  padding-left: 10px;
+  color: $colorTextAccent;
+
+  @media screen and (max-width: $screenSm) {
+    display: block;
+    padding: 0;
+  }
 }
 
 .email {
-  font-weight: $fontBold;
-  font-size: 25px;
-  font-family: $fancyFont;
+  display: block;
+  margin-top: 10px;
+  font-size: 15px;
   text-decoration: none;
-  text-transform: uppercase;
-  color: $colorPrimary;
+  color: $colorTextAccent;
 }
 
 .message {
   margin-top: 50px;
   font-size: 17px;
-  color: $colorText;
+  color: $colorTextPrimary;
   line-height: 1.5;
 }
 
 .social {
   margin-top: 50px;
+  display: flex;
+  align-items: center;
 
   @media screen and (max-width: $screenSm) {
     text-align: center;
@@ -52,6 +56,23 @@
 
 .socilIcon {
   margin-right: 20px;
-  color: $colorTextDark;
-  font-size: 50px;
+  color: $colorTextPrimary;
+  font-size: 40px;
+}
+
+.link {
+  margin-right: 20px;
+  color: $colorTextPrimary;
+}
+
+.blink {
+  animation-name: blink;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
 }

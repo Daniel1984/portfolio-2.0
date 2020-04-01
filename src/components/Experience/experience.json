@@ -1,44 +1,50 @@
 [
   {
-    "title": "Golang developer (Remote consultant)",
+    "title": "Golang Developer (Remote)",
+    "company": "ZAZU (London / Zambia)",
+    "date": "2019 November - present",
+    "message": "Developing payment gateway that offers the ability for e-commerce vendors to be able to accept online payments via Mastercard or Visa credit or debit cards. Technologies used: Golang, Nodejs, Postgres, Docker, TDD, AWS, BitBucket, CI/CD"
+  },
+  {
+    "title": "Golang Developer (Remote)",
     "company": "Xiatech (London, UK)",
     "date": "2019 March - present",
-    "message": "Data analysis of business information. Creating data ingest pipelines, data processing, analysis and persistence in data lakes. Technologies used: Golang, AWS Lambda, AWS DynamoDB, AWS DMS, TDD, Docker, Terraform, SQL"
+    "message": "Data analysis of business information. Creating data ingest pipelines, data processing, analysis and persistence in data lakes. Technologies used: Golang, AWS Lambda, DynamoDB, SQS, RabbitMQ, DMS, TDD, Docker, Terraform, SQL"
   },
   {
-    "title": "Principal Software Engineer (Remote consultant)",
+    "title": "Golang Developer (Remote)",
     "company": "Rokkex (Vilnius, LT)",
-    "date": "2018 Aug - present",
-    "message": "Core contributor to high performance matching engine written in GO using TDD process (unit, integration and benchmark tests) as well as development of microservices with Node.js and client facing app with React.js. Technologies used: Golang, Grpc, Kafka, Docker, Node.js, React.js, Jest"
+    "date": "2018 Aug - 2019 Dec",
+    "message": "Created a high performance matching engine with GO using TDD process (unit, integration and benchmark tests) and microservices with Nodejs. Technologies used: Golang, Grpc, Kafka, Docker, Nodejs."
   },
   {
-    "title": "Senior / Principal Software Engineer (Remote consultant)",
+    "title": "Principal Engineer (Remote)",
     "company": "Hostmaker (London, UK)",
-    "date": "2017 Jan - present",
-    "message": "Working on various projects starting from utility Slack bots with AWS Lambda integration (Golang), API (using Node.js with Sequelize), multiple client facing apps (React, Ember, vanilla JS) and mobile app (React Native). Focusing on delivering clean and maintainable code with high test coverage. Involved in hiring process, code reviews and mentoring junior developers."
+    "date": "2017 Jan - 2019 Feb",
+    "message": "Working on various projects starting from utility Slack bots with AWS Lambda integration (Golang), REST API, multiple client facing web apps and mobile app. Focusing on delivering clean and maintainable code with high test coverage. Involved in hiring process, code reviews and mentoring junior developers. Technologies used: Nodejs, GO, SQL, React, React Native."
   },
   {
-    "title": "Senior Front End Developer (Remote consultant)",
+    "title": "Senior Developer (Remote)",
     "company": "Wrap Media (San Francisco, USA)",
     "date": "2015 Feb - 2016 Nov",
-    "message": "Building powerful mobile engagement tool for deepening relationships, improving loyalty and driving commerce. Daily tasks involved development of API and client side apps using RoR and Angularjs"
+    "message": "REST API and client-side app development. Technologies used: RoR, Nodejs, Angular."
   },
   {
-    "title": "Long Term Consultant / Senior Front End Developer (Remote consultant)",
+    "title": "Senior Developer (Remote)",
     "company": "SameSystem A/S (Denmark)",
     "date": "2014 Feb - 2017 Jan",
-    "message": "Developed the mobile app from scratch for retail efficiency management system. Using cordova/React native."
+    "message": "REST API and mobile app development for retail efficiency management system. Technologies used: Cordova, React Native and RoR."
   },
   {
-    "title": "Front End Developer",
+    "title": "Full Stack Developer",
     "company": "Necolt (Vilnius, LT)",
     "date": "2013 April - 2014 February",
-    "message": "Worked on various projects with different technologies such as: RoR, node.js, backbone.js and more."
+    "message": "REST API and client-side app development. Technologies used: RoR, Nodejs, backbone.js, pixi.js."
   },
   {
-    "title": "Full Stack Software Developer",
+    "title": "Full Stack Developer",
     "company": "Little Star Media Ltd. (Milton Keynes, UK)",
     "date": "2010 August - 2013 April",
-    "message": "Worked with large scale SOA architecture with RoR, Node.js and Backbone.js. Developing responsive web app and games."
+    "message": "SOA, REST API and game development. Technologies used: RoR, Nodejs, Backbone.js."
   }
 ]

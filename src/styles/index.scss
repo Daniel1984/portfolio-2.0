@@ -4,6 +4,7 @@ html,
 body {
   height: 100%;
   user-select: none;
+  background-color: $colorBackgorund;
 }
 
 :global {
@@ -26,5 +27,5 @@ body {
 body {
   font-family: $fontFamily;
   font-weight: $fontNormal;
-  color: $colorTextDark;
+  color: $colorTextPrimary;
 }

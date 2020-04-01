@@ -1,62 +1,59 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import VisibilitySensor from 'react-visibility-sensor';
-import LinkedinIcon from 'react-icons/lib/io/social-linkedin';
-import GithubIcon from 'react-icons/lib/io/social-github';
-import { withAppContainer } from '../../containers/AppContainer';
+import React from 'react';
+import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 import styles from './About.scss';
 
-class About extends Component {
-  static propTypes = {
-    setActiveSlideViaScroll: PropTypes.func.isRequired,
-    storeSlideRef: PropTypes.func.isRequired,
-  };
+const About = () => (
+  <div className={styles.root}>
+    <div className={styles.content}>
+      <h1 className={styles.name}>
+        Daniel
+        <span className={styles.surname}>Stenger</span>
+      </h1>
+      <a className={styles.email} href="mailto:danielstenger@protonmail.com">
+        danielstenger@protonmail.com
+      </a>
 
-  render() {
-    const { storeSlideRef, setActiveSlideViaScroll } = this.props;
-
-    return (
-      <div
-        ref={el => storeSlideRef({ el, index: 0 })}
-        className={styles.root}
-      >
-        <VisibilitySensor onChange={visible => setActiveSlideViaScroll({ visible, slide: 0 })} />
-        <div className={styles.content}>
-          <h1 className={styles.name}>
-            Daniel <span className={styles.surname}>Stenger</span>
-          </h1>
-          <a className={styles.email} href="mailto:danielstenge114@gmail.com">
-            danielstenge114@gmail.com
-          </a>
-
-          <div className={styles.message}>
-            Software engineer specializing in building solid, maintenance free software by applying established
-            and community recognized technologies and best practices. Have a solid understanding of
-            both server and client sides development. GO and functional programming enthusiast.
-          </div>
-
-          <div className={styles.social}>
-            <a
-              href="https://www.linkedin.com/in/dan-stenger-93b6839b"
-              className={styles.socilIcon}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <LinkedinIcon />
-            </a>
-            <a
-              href="https://github.com/daniel1984"
-              className={styles.socilIcon}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <GithubIcon />
-            </a>
-          </div>
-        </div>
+      <div className={styles.message}>
+        Software engineer focusing on building simple, maintenance free software by applying established
+        and community recognized technologies and best practices. GO and functional programming enthusiast
+        <span className={styles.blink}>_</span>
       </div>
-    );
-  }
-}
 
-export default withAppContainer(About);
+      <div className={styles.social}>
+        <a
+          href="https://www.linkedin.com/in/dan-stenger-93b6839b"
+          className={styles.socilIcon}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedin />
+        </a>
+        <a
+          href="https://github.com/daniel1984"
+          className={styles.socilIcon}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithubSquare />
+        </a>
+        <a
+          href="#experience"
+          className={styles.link}
+          rel="noopener noreferrer"
+        >
+          Experience
+        </a>
+        <a
+          href="https://hackernoon.com/@danstenger"
+          target="_blank"
+          className={styles.link}
+          rel="noopener noreferrer"
+        >
+          More
+        </a>
+      </div>
+    </div>
+  </div>
+);
+
+export default About;

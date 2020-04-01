@@ -3,9 +3,13 @@ $colorTextDark: #343a40;
 $colorPrimary: rgb(88, 196, 198);
 $colorPrimaryLignt: rgb(136, 253, 255);
 $colorLines: rgb(222, 226, 230);
+$colorBackgorund: rgb(0, 0, 0);
+// $colorTextPrimary: rgb(255, 255, 255);
+$colorTextPrimary: whiteSmoke;
+$colorTextAccent: rgb(74,246,38);
 
-$fontFamily: 'Open Sans', sans-serif;
-$fancyFont: 'Saira Extra Condensed', serif;
+$fontFamily: 'Roboto Mono', monospace;
+$fancyFont: 'Roboto Mono', monospace;
 $fontNormal: 400;
 $fontSemiBold: 500;
 $fontBold: 600;

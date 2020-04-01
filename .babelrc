@@ -1,41 +1,17 @@
 {
-  "presets": [
-    ["env", {
-      "targets": {
-        "node": "current"
-      },
-      "modules": false
-    }],
-    "react",
-    "stage-2"
-  ],
   "plugins": [
-    "transform-class-properties",
-    "transform-object-rest-spread",
-    ["inline-react-svg", {
-      "svgo": {
-        "plugins": [{
-          "cleanupIDs": false
-        }]
-      }
-    }]
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-transform-runtime"
   ],
-  "env": {
-    "test": {
-      "presets": [
-        ["env", {
-          "targets": {
-            "node": "current"
-          }
-        }],
-        "react",
-        "stage-2"
-      ],
-      "plugins": [
-        "transform-class-properties",
-        "transform-object-rest-spread",
-        "inline-react-svg"
-      ]
-    }
-  }
+  "presets": [
+    "@babel/preset-react",
+    [
+      '@babel/preset-env',
+      {
+        targets: {
+          node: 'current',
+        },
+      },
+    ],
+  ],
 }
